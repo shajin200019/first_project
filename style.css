@@ -1,0 +1,17 @@
+/* Apply style to the whole page */
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for a heading */
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* Style for a paragraph */
+p {
+  color: black;
+  font-size: 16px;
+}
