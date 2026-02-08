@@ -1,17 +1,17 @@
 /* Apply style to the whole page */
 body {
-  background-color: lightblue;
+  background-color: rgb(230, 22, 150);
   font-family: Arial, sans-serif;
 }
 
 /* Style for a heading */
 h1 {
-  color: darkblue;
+  color: rgb(19, 139, 0);
   text-align: center;
 }
 
 /* Style for a paragraph */
 p {
-  color: black;
+  color: rgb(45, 145, 233);
   font-size: 16px;
 }
