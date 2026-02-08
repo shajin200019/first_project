@@ -1,17 +1,69 @@
-/* Apply style to the whole page */
+/* Page body */
 body {
-  background-color: rgb(230, 22, 150);
   font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  margin: 0;
+  padding: 0;
 }
 
-/* Style for a heading */
-h1 {
-  color: rgb(19, 139, 0);
+/* Header section */
+header {
+  background-color: #17a7e9;
+  padding: 20px;
   text-align: center;
 }
 
-/* Style for a paragraph */
-p {
-  color: rgb(45, 145, 233);
+header h1 {
+  color: black;
+  margin: 0;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #95c0f2;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
   font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  color: #333;
+}
+
+main p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #17a7e9;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Bottom link */
+a {
+  display: block;
+  text-align: center;
+  margin: 15px;
+  color: #0066cc;
 }
